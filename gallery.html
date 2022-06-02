@@ -1,0 +1,175 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <title>Ayomide Storybook</title>
+    <link rel="icon" type="image/png" href="assets/img/fav-icon.png">
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/fonts.css"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/responsive.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/jquery.fancybox.min.css"/>
+    <script type="text/javascript" src="assets/js/jquery-1.8.2.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-scrolltofixed.js"></script>
+    <script type="text/javascript" src="assets/js/prefixfree-1.0.7.js"></script>
+    <script type="text/javascript" src="assets/js/script.js"></script>
+    <link type="text/css" rel="stylesheet" href="assets/css/owl_carousel.css" />
+    <link type="text/css" rel="stylesheet" href="assets/css/owl_theme.css" />
+    <link type="text/css" rel="stylesheet" href="assets/css/owl_transitions.css" />
+    <script type="text/javascript" src="assets/js/owl.carousel.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.fancybox.min.js"></script>
+    
+
+    <script type="text/javascript"> 
+         $(window).load(function() {
+          $(".owl-carousel").owlCarousel({
+            autoPlay: false,
+            navigation: true,
+            slideSpeed: 2000,
+            addClassActive: true,
+            transitionStyle: "fadeUp",
+            singleItem: true
+          });
+
+          $('a.g_img_hld').fancybox();
+          
+        });
+    </script>
+
+  </head>
+
+  <body>
+  
+    <div id="main_wrapper">
+
+      <div class="header">
+        <div class="hdr">
+
+          <div class="menu">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="stories.html">Stories</a></li>
+            </ul>
+          </div>
+
+          <div class="social">
+            <a href="" class="fas fa-envelope"></a>
+            <a href="" class="fas fa-download"></a>
+          </div>
+
+          <div class="menu_icon">
+            <div class="menu_text">Menu</div>
+            <div class="burger_icon"> 
+              <span class="burger_bar_top"></span> 
+              <span class="burger_bar_middle"></span> 
+              <span class="burger_bar_bottom"></span> 
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+      <div class="banner grey_sec clearfix">
+        <div class="bnr_photo" style="background-image: url(media/hero-image.png)"></div>
+        <div class="bnr_caption">
+          <div class="bnr_major">Gallery</div>
+          <div class="bnr_minor">Ibitayo Ayomide Olubode</div>
+          <div class="cta"><a href="#">Photo gallery</a></div>
+        </div>
+      </div>
+
+
+
+
+      <div class="section g_hld">
+        <div class="inner_wrap clearfix">
+          <div class="gallery_wrap clearfix">
+            <a href="media/photo1.jpg" data-fancybox="gallery" data-caption="Caption #1">
+              <img src="media/photo1.jpg" alt="" />
+            </a>
+            
+            <a href="media/photo2.jpg" data-fancybox="gallery" data-caption="Caption #2">
+              <img src="media/photo2.jpg" alt="" />
+            </a>
+
+            <a href="media/photo3.jpg" data-fancybox="gallery" data-caption="Caption #3">
+              <img src="media/photo3.jpg" alt="" />
+            </a>
+
+            <a href="media/photo4.jpg" data-fancybox="gallery" data-caption="Caption #4">
+              <img src="media/photo4.jpg" alt="" />
+            </a>
+
+            <a href="media/photo5.jpg" data-fancybox="gallery" data-caption="Caption #5">
+              <img src="media/photo5.jpg" alt="" />
+            </a>
+
+            <a href="media/photo10.jpg" data-fancybox="gallery" data-caption="Caption #6">
+              <img src="media/photo10.jpg" alt="" />
+            </a>
+
+            <a href="media/photo7.jpg" data-fancybox="gallery" data-caption="Caption #7">
+              <img src="media/photo7.jpg" alt="" />
+            </a>
+          </div>
+
+          <script type="text/javascript">
+            $('[data-fancybox="gallery"]').fancybox({
+              loop: true,
+              buttons: [
+                "zoom",
+                "share",
+                "slideShow",
+                "fullScreen",
+                //"download",
+                "thumbs",
+                "close"
+              ]
+            });
+          </script>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="inner_wrap">
+          <div class="mid_sec">
+            <div class="pg_hd">Video Gallery</div>
+            <div class="video_wrap">
+              <div class="video_hld">
+                <video autoplay muted loop>
+                  <source src="media/banner-video1.mp4" type="video/mp4">
+                </video>
+                <div class="v_cap">Trailer</div>
+              </div>
+              <div class="video_hld">
+                <video autoplay muted loop>
+                  <source src="media/banner-video2.mp4" type="video/mp4">
+                </video>
+                <div class="v_cap">Voyage</div>
+              </div>
+            </div> 
+          </div>
+        </div>
+      </div>
+
+      
+
+      <div class="footer clearfix">
+        <div class="inner_wrap">
+            <div class="copyright"><a href="#" target="new">&copy; Copyright 2020. All Rights Reserved.</a></div>
+            <div class="create"><a href="#" target="new">Created by <span>TMC</span></a></div>
+        </div>
+      </div>
+
+
+     
+    </div>
+  
+  </body>
+</html>
+
