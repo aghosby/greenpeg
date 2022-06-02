@@ -2,40 +2,6 @@
 
 $(document).ready(function() {
 
-	$(".owl-carousel").owlCarousel({
-		nav: true,
-		loop:true,
-		margin: 80,
-		autoplay:true,
-		slideBy: 2,
-		autoplayTimeout:5000,
-		autoplayHoverPause:true,
-		responsive:{
-			0:{
-				items:1
-			},
-			480:{
-				items:1
-			},
-			768:{
-				items:2
-			}
-		}
-	});
-
-
-	var d = $('.testdiv');
-	$(window).scroll(function () {
-		scroll = $(window).scrollTop();
-		if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-			if (scroll >= 50) d.addClass('sm');
-			else d.removeClass('sm');
-		} else {
-			if (scroll >= 20) d.addClass('ready');
-			else d.removeClass('ready');
-	    }	
-	});
-	
 	/*
 
 	let tlMenu = gsap.timeline({
@@ -146,7 +112,6 @@ $(document).ready(function() {
 
 	new fullpage('#fullpage', {
 		autoScrolling: true,
-		navigation: true,
 	})
 	
 		
