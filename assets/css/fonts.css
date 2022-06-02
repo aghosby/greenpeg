@@ -1,91 +1,33 @@
 @charset "utf-8";
 /* CSS Document */
 
-@font-face {
-	font-family: 'PT';
-	src: url('../fonts/Poppins-Thin.ttf');
-	src: url(//:) format('no404'), url('../fonts/Poppins-Thin.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'PL';
-	src: url('../fonts/Poppins-Light.ttf');
-	src: url(//:) format('no404'), url('../fonts/Poppins-Light.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'PR';
-	src: url('../fonts/Poppins-Regular.ttf');
-	src: url(//:) format('no404'), url('../fonts/Poppins-Regular.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'PM';
-	src: url('../fonts/Poppins-Medium.ttf');
-	src: url(//:) format('no404'), url('../fonts/Poppins-Medium.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'PB';
-	src: url('../fonts/Poppins-Bold.ttf');
-	src: url(//:) format('no404'), url('../fonts/Poppins-Bold.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
+@import url("icomoon.css");
 
 @font-face {
-	font-family: 'PEB';
-	src: url('../fonts/Poppins-ExtraBold.ttf');
-	src: url(//:) format('no404'), url('../fonts/Poppins-ExtraBold.ttf') format('truetype');
+	font-family: 'RL';
+	src: url('../fonts/Rubik-Light.ttf');
+	src: url(//:) format('no404'), url('../fonts/Rubik-Light.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
-	font-family: 'PSB';
-	src: url('../fonts/Poppins-SemiBold.ttf');
-	src: url(//:) format('no404'), url('../fonts/Poppins-SemiBold.ttf') format('truetype');
+	font-family: 'RR';
+	src: url('../fonts/Rubik-Regular.ttf');
+	src: url(//:) format('no404'), url('../fonts/Rubik-Regular.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
-	font-family: 'PBL';
-	src: url('../fonts/Poppins-Black.ttf');
-	src: url(//:) format('no404'), url('../fonts/Poppins-Black.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'QL';
-	src: url(../fonts/Quicksand-Light.ttf);
+	font-family: 'RM';
+	src: url('../fonts/Rubik-Medium.ttf');
+	src: url(//:) format('no404'), url('../fonts/Rubik-Medium.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
-	font-family: 'QR';
-	src: url(../fonts/Quicksand-Regular.ttf);
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'QM';
-	src: url(../fonts/Quicksand-Medium.ttf);
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'QSB';
-	src: url(../fonts/Quicksand-SemiBold.ttf);
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'QB';
-	src: url(../fonts/Quicksand-Bold.ttf);
+	font-family: 'RB';
+	src: url('../fonts/Rubik-Bold.ttf');
+	src: url(//:) format('no404'), url('../fonts/Rubik-Bold.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
